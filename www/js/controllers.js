@@ -19,6 +19,8 @@ angular.module('starter.controllers', [])
   //
   //$scope.$on('$ionicView.enter', function(e) {
   //});
+  
+  // NEW CHANGE
 
   $scope.chats = Chats.all();
   $scope.remove = function(chat) {
